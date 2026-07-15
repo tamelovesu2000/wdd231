@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bayelsa Chamber of Commerce Directory">
+    <meta name="author" content="ThankGod Otame">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bayelsa Chamber of Commerce">
+    <meta property="og:description" content="Business directory for the Bayelsa Chamber of Commerce.">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://tamelovesu2000.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <title>Bayelsa Chamber Directory</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Bayelsa Chamber Logo" width="60" height="60">
+
+        <div>
+            <h1>Bayelsa Chamber of Commerce</h1>
+        </div>
+
+        <button id="menuButton" aria-label="Open Navigation Menu">☰</button>
+    </header>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Business Directory</h2>
+
+        <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+
+        <section id="members" class="grid">
+            <!-- Member cards added by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Bayelsa Chamber of Commerce</p>
+        <p>Yenagoa, Bayelsa State, Nigeria</p>
+        <p>Phone: +234-800-000-0000</p>
+        <p>Email: info@bayelsachamber.org</p>
+
+        <hr>
+
+        <p>
+            &copy; <span id="currentyear"></span> |
+            ThankGod Otame |
+            WDD 231
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

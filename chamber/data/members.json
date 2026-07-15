@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Bayelsa Tech Solutions",
+        "address": "123 Mbiama Road, Yenagoa",
+        "phone": "+2348011111111",
+        "website": "https://www.bayelsatech.com",
+        "image": "tech.jpg",
+        "membership": 3,
+        "description": "Technology and software company."
+    },
+    {
+        "name": "Niger Delta Hotel",
+        "address": "45 Azikoro Road, Yenagoa",
+        "phone": "+2348022222222",
+        "website": "https://www.ndhotel.com",
+        "image": "hotel.jpg",
+        "membership": 2,
+        "description": "Luxury hotel and conference center."
+    },
+    {
+        "name": "Glory Supermarket",
+        "address": "Swali Market, Yenagoa",
+        "phone": "+2348033333333",
+        "website": "https://www.glorymarket.com",
+        "image": "market.jpg",
+        "membership": 1,
+        "description": "Retail supermarket."
+    },
+    {
+        "name": "Ocean Logistics",
+        "address": "Opolo, Yenagoa",
+        "phone": "+2348044444444",
+        "website": "https://www.oceanlogistics.com",
+        "image": "logistics.jpg",
+        "membership": 2,
+        "description": "Transportation and logistics."
+    },
+    {
+        "name": "Bayelsa Printing Press",
+        "address": "Kpansia, Yenagoa",
+        "phone": "+2348055555555",
+        "website": "https://www.bprint.com",
+        "image": "printing.jpg",
+        "membership": 1,
+        "description": "Printing and branding services."
+    },
+    {
+        "name": "Green Farms",
+        "address": "Amassoma Road",
+        "phone": "+2348066666666",
+        "website": "https://www.greenfarms.com",
+        "image": "farm.jpg",
+        "membership": 3,
+        "description": "Agricultural products."
+    },
+    {
+        "name": "Peace Pharmacy",
+        "address": "Imgbi Road",
+        "phone": "+2348077777777",
+        "website": "https://www.peacepharmacy.com",
+        "image": "pharmacy.jpg",
+        "membership": 2,
+        "description": "Health and pharmaceutical services."
+    }
+]

@@ -1,0 +1,20 @@
+@media only screen and (min-width: 640px) {
+
+    #menuButton {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    #members {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+}
