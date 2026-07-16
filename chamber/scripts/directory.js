@@ -10,6 +10,7 @@ async function getMembers() {
 const displayMembers = (members) => {
     members.forEach((member) => {
         const card = document.createElement("section");
+        card.classList.add("member-card");
 
         card.innerHTML = `
             <h3>${member.name}</h3>

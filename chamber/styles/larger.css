@@ -13,8 +13,18 @@
         border: none;
     }
 
-    #members {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
     }
 
+    .list section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100px;
+    }
 }
