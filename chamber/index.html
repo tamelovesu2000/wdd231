@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to the Bayelsa Chamber of Commerce. Supporting local businesses, community events, and economic growth.">
+    <meta name="author" content="ThankGod Otame">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bayelsa Chamber of Commerce">
+    <meta property="og:description" content="Welcome to the Bayelsa Chamber of Commerce website.">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://tamelovesu2000.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <title>Home | Bayelsa Chamber of Commerce</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.svg" alt="Bayelsa Chamber Logo">
+
+        <div>
+            <h1>Bayelsa Chamber of Commerce</h1>
+        </div>
+
+        <button id="menuButton" aria-label="Open Navigation Menu">☰</button>
+    </header>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Bayelsa Chamber of Commerce">
+
+            <div class="hero-content">
+                <h2>Welcome to Bayelsa Chamber of Commerce</h2>
+                <p>Supporting local businesses and promoting economic growth in Bayelsa State.</p>
+
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Current Events</h2>
+
+            <article>
+                <h3>Business Networking Forum</h3>
+                <p>
+                    Join local entrepreneurs and business leaders for a networking event
+                    on August 15, 2026, at the Bayelsa Civic Centre.
+                </p>
+            </article>
+        </section>
+
+        <section class="weather">
+
+            <h2>Weather</h2>
+
+            <p><strong>Current Temperature:</strong> <span id="current-temp"></span></p>
+
+            <p><strong>Conditions:</strong> <span id="weather-desc"></span></p>
+
+            <h3>3-Day Forecast</h3>
+
+            <div id="forecast"></div>
+
+        </section>
+
+        <section class="spotlights">
+            <h2>Company Spotlights</h2>
+
+            <div id="spotlight-container"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Bayelsa Chamber of Commerce</p>
+        <p>Yenagoa, Bayelsa State, Nigeria</p>
+        <p>Phone: +234-800-000-0000</p>
+        <p>Email: info@bayelsachamber.org</p>
+
+        <hr>
+
+        <p>
+            &copy; <span id="currentyear"></span> |
+            ThankGod Otame |
+            WDD 231
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

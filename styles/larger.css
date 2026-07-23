@@ -56,4 +56,47 @@
         margin-top: 2rem;
     }
 
+    /* Desktop Layout */
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .hero {
+        grid-column: 1 / 3;
+    }
+
+    .events {
+        grid-column: 1;
+    }
+
+    .weather {
+        grid-column: 2;
+    }
+
+    .spotlights {
+        grid-column: 1 / 3;
+    }
+
+    #spotlight-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .spotlight-card {
+        margin: 0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .spotlight-card img {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+    }
 }
